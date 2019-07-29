@@ -11,25 +11,25 @@ class Nav extends Component {
             <h1 className={navStyles.title}>ALL IS WELL.</h1>
           </div>
           <ul className={navStyles.navLinks}>
-            <a href="#/store">
+            <a className={navStyles.links} href="#/store">
               <li>
                 <h4>Store</h4>
               </li>
             </a>
-            <a href="#/events">
+            <a className={navStyles.links} href="#/events">
               <li>
                 {" "}
                 <h4>Events</h4>
               </li>
             </a>
 
-            <a href="#/about">
+            <a className={navStyles.links} href="#/about">
               <li>
                 {" "}
                 <h4>About</h4>
               </li>
             </a>
-            <a href="/">
+            <a className={navStyles.links} href="/">
               <li>
                 {" "}
                 <h4>Home</h4>
